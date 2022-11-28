@@ -1,0 +1,432 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .menu, .buutons{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.header{
+    box-shadow: 0px 2px 8px 0px rgba(173, 172, 172, 0.589);
+    margin-bottom: 2px;
+}
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+}
+
+.header li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header li a:hover{
+    color: rgb(121, 57, 194);
+}
+
+.logo img{
+    width: 110px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+#search{
+    width: 500px;
+    height: 45px;
+    border-radius: 40px;
+    outline: none;
+    border: 1px black solid;
+    background-color: rgba(204, 203, 203, 0.13);
+    padding-left: 20px;
+}
+
+input[type="button"]{
+    height: 40px;
+    margin-right: 5px;
+}
+
+#login, #register{
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button, #login{
+    background-color: white;
+    border: 1px black solid;
+}
+
+button, #login:hover{
+    background-color: rgba(204, 203, 203, 0.13); 
+}
+
+#register{
+    background-color: black;
+    color: white;
+}
+
+.menu img{
+    width: 25px;
+    height: 20px;
+}
+
+
+.buttons img,.language img{
+    width: 20px;
+    height: 20px; 
+}
+.section-1{
+    background-image: url("images/banner-0.jpg");
+    height: 330px;
+   padding-top: 60px;
+
+}
+
+.text{
+    background-color: white;
+    height: 170px;
+    width: 420px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0.5px 0.5px 3px 0.3px rgb(168, 167, 167);
+}
+
+.section-1 p{
+    font-size: 20px;
+    font-weight: normal;
+}
+h1{font-size: 40px;}
+
+.section-2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.courses-text{
+    margin-top: 50px;
+}
+
+.courses-text p{
+    font-size: 20px;
+}
+
+.courses-text li{
+    font-size: 17px;
+    font-weight: bold;
+   padding-right: 20px;
+}
+
+.courses-text li a{
+    text-decoration: none;
+    color: rgba(95, 95, 95, 0.795);
+}
+
+.courses-text li a:hover{
+    color: black;
+}
+
+.courses{
+    border: 1px rgba(185, 184, 184, 0.534) solid;
+    padding-left: 30px;
+    padding-bottom: 35px;
+    margin-bottom: 70px;
+}
+
+button{
+    background-color: white;
+    border: 1px black solid;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button:hover{
+    background-color: rgba(204, 203, 203, 0.13); 
+}
+
+.python-courses{
+    display: flex;
+    justify-content: center;
+}
+.img-price{
+    margin-top: 40px;
+    width: 200px;
+    padding-right: 50px;  
+}
+
+.price-course p{
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.rate{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.rate img{
+    width: 15px;
+    height: 15px;
+}
+.price-course .name{
+    font-weight: normal;
+    font-size: 12px;
+    color: grey;
+}
+
+.section-3{
+    background-color: rgba(194, 189, 189, 0.151);
+    display: flex;
+    margin-bottom: 55px;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 70px;
+}
+
+.adv{
+    display: flex;
+    width: 340px;
+    align-items: center;
+   
+}
+
+.adv p{
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.adv .img-round{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 15px;
+    background-color: rgba(128, 128, 128, 0.527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adv img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.section-4 h2{
+    margin-bottom: -30px;
+    padding-left: 30px;
+}
+
+.categories{
+    margin-top: 75px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.categories img{
+    margin-right: 27px;
+}
+
+.cat-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat-img p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.more-topic{
+    background-color: rgba(194, 189, 189, 0.151);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+.topics{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.more-topic button{
+    width: 170px;
+    height: 40px;
+}
+
+
+.topics p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 12.5px;
+    color: rgba(128, 128, 128, 0.973);
+}
+
+.topics a{
+    font-weight: bold;
+}
+
+.trust{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.trust p{
+    margin-top: 0px;
+}
+
+.img-trust{
+    padding: 10px 0px 10px 30px;
+}
+
+.img-trust img{
+    margin-right: 130px;
+}
+
+.udemy-business, .instrutor{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.business-text img{
+    width: 200px;
+    height: 60px;
+    margin-bottom: -30px;
+}
+
+.business-text{
+    width: 450px;
+    margin-right: 50px;
+}
+
+.black, .white{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.black{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+}
+
+.black:hover{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+    border:  1px solid black;
+    color: black;
+    margin-left: 5px;
+}
+
+.instrutor-text{
+    width: 380px;
+    margin-left: 100px;
+}
+
+.instrutor-text p{
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.business-text ul, .info ul{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.business-text ul li{
+    padding-bottom: 15px;
+    list-style: disc;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.instrutor{
+    margin-bottom: 100px;
+}
+
+.footer{
+    background-color: rgba(25, 25, 27, 0.904);
+    padding: 30px;
+}
+
+.more-info, .udemy{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.language a{
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.info{
+    display: flex;
+}
+
+.info a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.info a:hover{
+    text-decoration: underline;
+}
+
+.info ul{
+    margin-right: 80px;
+}
+
+.udemy img{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.udemy{
+    margin-bottom: -20px;
+}
